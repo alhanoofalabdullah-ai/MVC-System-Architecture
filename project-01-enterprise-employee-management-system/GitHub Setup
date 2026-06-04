@@ -1,0 +1,31 @@
+mkdir project-01-enterprise-employee-management-system
+cd project-01-enterprise-employee-management-system
+
+mkdir -p src/main/java/com/alhanoof/employee/controller
+mkdir -p src/main/java/com/alhanoof/employee/service
+mkdir -p src/main/java/com/alhanoof/employee/repository
+mkdir -p src/main/java/com/alhanoof/employee/entity
+mkdir -p src/main/java/com/alhanoof/employee/dto
+mkdir -p src/main/java/com/alhanoof/employee/mapper
+mkdir -p src/main/java/com/alhanoof/employee/validation
+mkdir -p src/main/java/com/alhanoof/employee/exception
+mkdir -p src/main/java/com/alhanoof/employee/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/employee/EmployeeManagementApplication.java
+touch src/main/java/com/alhanoof/employee/controller/EmployeeController.java
+touch src/main/java/com/alhanoof/employee/service/EmployeeService.java
+touch src/main/java/com/alhanoof/employee/service/EmployeeServiceImpl.java
+touch src/main/java/com/alhanoof/employee/repository/EmployeeRepository.java
+touch src/main/java/com/alhanoof/employee/entity/Employee.java
+touch src/main/java/com/alhanoof/employee/dto/EmployeeRequest.java
+touch src/main/java/com/alhanoof/employee/dto/EmployeeResponse.java
+touch src/main/java/com/alhanoof/employee/mapper/EmployeeMapper.java
+touch src/main/java/com/alhanoof/employee/validation/EmployeeValidator.java
+touch src/main/java/com/alhanoof/employee/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/employee/exception/ValidationException.java
+touch src/main/java/com/alhanoof/employee/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/employee/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
