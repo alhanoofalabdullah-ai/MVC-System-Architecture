@@ -1,0 +1,31 @@
+mkdir project-04-sales-management-system
+cd project-04-sales-management-system
+
+mkdir -p src/main/java/com/alhanoof/sales/controller
+mkdir -p src/main/java/com/alhanoof/sales/service
+mkdir -p src/main/java/com/alhanoof/sales/repository
+mkdir -p src/main/java/com/alhanoof/sales/entity
+mkdir -p src/main/java/com/alhanoof/sales/dto
+mkdir -p src/main/java/com/alhanoof/sales/mapper
+mkdir -p src/main/java/com/alhanoof/sales/validation
+mkdir -p src/main/java/com/alhanoof/sales/exception
+mkdir -p src/main/java/com/alhanoof/sales/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/sales/SalesApplication.java
+touch src/main/java/com/alhanoof/sales/controller/SalesController.java
+touch src/main/java/com/alhanoof/sales/service/SalesService.java
+touch src/main/java/com/alhanoof/sales/service/SalesServiceImpl.java
+touch src/main/java/com/alhanoof/sales/repository/SalesRepository.java
+touch src/main/java/com/alhanoof/sales/entity/Sale.java
+touch src/main/java/com/alhanoof/sales/dto/SalesRequest.java
+touch src/main/java/com/alhanoof/sales/dto/SalesResponse.java
+touch src/main/java/com/alhanoof/sales/mapper/SalesMapper.java
+touch src/main/java/com/alhanoof/sales/validation/SalesValidator.java
+touch src/main/java/com/alhanoof/sales/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/sales/exception/ValidationException.java
+touch src/main/java/com/alhanoof/sales/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/sales/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
