@@ -1,0 +1,31 @@
+mkdir project-02-customer-relationship-management-system
+cd project-02-customer-relationship-management-system
+
+mkdir -p src/main/java/com/alhanoof/crm/controller
+mkdir -p src/main/java/com/alhanoof/crm/service
+mkdir -p src/main/java/com/alhanoof/crm/repository
+mkdir -p src/main/java/com/alhanoof/crm/entity
+mkdir -p src/main/java/com/alhanoof/crm/dto
+mkdir -p src/main/java/com/alhanoof/crm/mapper
+mkdir -p src/main/java/com/alhanoof/crm/validation
+mkdir -p src/main/java/com/alhanoof/crm/exception
+mkdir -p src/main/java/com/alhanoof/crm/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/crm/CrmApplication.java
+touch src/main/java/com/alhanoof/crm/controller/CustomerController.java
+touch src/main/java/com/alhanoof/crm/service/CustomerService.java
+touch src/main/java/com/alhanoof/crm/service/CustomerServiceImpl.java
+touch src/main/java/com/alhanoof/crm/repository/CustomerRepository.java
+touch src/main/java/com/alhanoof/crm/entity/Customer.java
+touch src/main/java/com/alhanoof/crm/dto/CustomerRequest.java
+touch src/main/java/com/alhanoof/crm/dto/CustomerResponse.java
+touch src/main/java/com/alhanoof/crm/mapper/CustomerMapper.java
+touch src/main/java/com/alhanoof/crm/validation/CustomerValidator.java
+touch src/main/java/com/alhanoof/crm/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/crm/exception/ValidationException.java
+touch src/main/java/com/alhanoof/crm/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/crm/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
