@@ -1,0 +1,31 @@
+mkdir project-03-inventory-management-system
+cd project-03-inventory-management-system
+
+mkdir -p src/main/java/com/alhanoof/inventory/controller
+mkdir -p src/main/java/com/alhanoof/inventory/service
+mkdir -p src/main/java/com/alhanoof/inventory/repository
+mkdir -p src/main/java/com/alhanoof/inventory/entity
+mkdir -p src/main/java/com/alhanoof/inventory/dto
+mkdir -p src/main/java/com/alhanoof/inventory/mapper
+mkdir -p src/main/java/com/alhanoof/inventory/validation
+mkdir -p src/main/java/com/alhanoof/inventory/exception
+mkdir -p src/main/java/com/alhanoof/inventory/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/inventory/InventoryApplication.java
+touch src/main/java/com/alhanoof/inventory/controller/ProductController.java
+touch src/main/java/com/alhanoof/inventory/service/ProductService.java
+touch src/main/java/com/alhanoof/inventory/service/ProductServiceImpl.java
+touch src/main/java/com/alhanoof/inventory/repository/ProductRepository.java
+touch src/main/java/com/alhanoof/inventory/entity/Product.java
+touch src/main/java/com/alhanoof/inventory/dto/ProductRequest.java
+touch src/main/java/com/alhanoof/inventory/dto/ProductResponse.java
+touch src/main/java/com/alhanoof/inventory/mapper/ProductMapper.java
+touch src/main/java/com/alhanoof/inventory/validation/ProductValidator.java
+touch src/main/java/com/alhanoof/inventory/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/inventory/exception/ValidationException.java
+touch src/main/java/com/alhanoof/inventory/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/inventory/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
