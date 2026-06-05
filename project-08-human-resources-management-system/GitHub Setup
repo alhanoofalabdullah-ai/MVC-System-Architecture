@@ -1,0 +1,5 @@
+mkdir project-08-human-resources-management-system
+
+git add .
+git commit -m "add project 08 human resources management system"
+git push
