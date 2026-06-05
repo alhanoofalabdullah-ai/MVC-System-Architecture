@@ -1,0 +1,31 @@
+mkdir project-06-banking-management-system
+cd project-06-banking-management-system
+
+mkdir -p src/main/java/com/alhanoof/banking/controller
+mkdir -p src/main/java/com/alhanoof/banking/service
+mkdir -p src/main/java/com/alhanoof/banking/repository
+mkdir -p src/main/java/com/alhanoof/banking/entity
+mkdir -p src/main/java/com/alhanoof/banking/dto
+mkdir -p src/main/java/com/alhanoof/banking/mapper
+mkdir -p src/main/java/com/alhanoof/banking/validation
+mkdir -p src/main/java/com/alhanoof/banking/exception
+mkdir -p src/main/java/com/alhanoof/banking/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/banking/BankingApplication.java
+touch src/main/java/com/alhanoof/banking/controller/BankAccountController.java
+touch src/main/java/com/alhanoof/banking/service/BankAccountService.java
+touch src/main/java/com/alhanoof/banking/service/BankAccountServiceImpl.java
+touch src/main/java/com/alhanoof/banking/repository/BankAccountRepository.java
+touch src/main/java/com/alhanoof/banking/entity/BankAccount.java
+touch src/main/java/com/alhanoof/banking/dto/BankAccountRequest.java
+touch src/main/java/com/alhanoof/banking/dto/BankAccountResponse.java
+touch src/main/java/com/alhanoof/banking/mapper/BankAccountMapper.java
+touch src/main/java/com/alhanoof/banking/validation/BankAccountValidator.java
+touch src/main/java/com/alhanoof/banking/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/banking/exception/ValidationException.java
+touch src/main/java/com/alhanoof/banking/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/banking/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
