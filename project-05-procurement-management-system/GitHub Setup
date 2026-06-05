@@ -1,0 +1,31 @@
+mkdir project-05-procurement-management-system
+cd project-05-procurement-management-system
+
+mkdir -p src/main/java/com/alhanoof/procurement/controller
+mkdir -p src/main/java/com/alhanoof/procurement/service
+mkdir -p src/main/java/com/alhanoof/procurement/repository
+mkdir -p src/main/java/com/alhanoof/procurement/entity
+mkdir -p src/main/java/com/alhanoof/procurement/dto
+mkdir -p src/main/java/com/alhanoof/procurement/mapper
+mkdir -p src/main/java/com/alhanoof/procurement/validation
+mkdir -p src/main/java/com/alhanoof/procurement/exception
+mkdir -p src/main/java/com/alhanoof/procurement/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/procurement/ProcurementApplication.java
+touch src/main/java/com/alhanoof/procurement/controller/ProcurementController.java
+touch src/main/java/com/alhanoof/procurement/service/ProcurementService.java
+touch src/main/java/com/alhanoof/procurement/service/ProcurementServiceImpl.java
+touch src/main/java/com/alhanoof/procurement/repository/ProcurementRepository.java
+touch src/main/java/com/alhanoof/procurement/entity/Procurement.java
+touch src/main/java/com/alhanoof/procurement/dto/ProcurementRequest.java
+touch src/main/java/com/alhanoof/procurement/dto/ProcurementResponse.java
+touch src/main/java/com/alhanoof/procurement/mapper/ProcurementMapper.java
+touch src/main/java/com/alhanoof/procurement/validation/ProcurementValidator.java
+touch src/main/java/com/alhanoof/procurement/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/procurement/exception/ValidationException.java
+touch src/main/java/com/alhanoof/procurement/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/procurement/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
