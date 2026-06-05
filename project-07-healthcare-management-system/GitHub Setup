@@ -1,0 +1,31 @@
+mkdir project-07-healthcare-management-system
+cd project-07-healthcare-management-system
+
+mkdir -p src/main/java/com/alhanoof/healthcare/controller
+mkdir -p src/main/java/com/alhanoof/healthcare/service
+mkdir -p src/main/java/com/alhanoof/healthcare/repository
+mkdir -p src/main/java/com/alhanoof/healthcare/entity
+mkdir -p src/main/java/com/alhanoof/healthcare/dto
+mkdir -p src/main/java/com/alhanoof/healthcare/mapper
+mkdir -p src/main/java/com/alhanoof/healthcare/validation
+mkdir -p src/main/java/com/alhanoof/healthcare/exception
+mkdir -p src/main/java/com/alhanoof/healthcare/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/healthcare/HealthcareApplication.java
+touch src/main/java/com/alhanoof/healthcare/controller/PatientController.java
+touch src/main/java/com/alhanoof/healthcare/service/PatientService.java
+touch src/main/java/com/alhanoof/healthcare/service/PatientServiceImpl.java
+touch src/main/java/com/alhanoof/healthcare/repository/PatientRepository.java
+touch src/main/java/com/alhanoof/healthcare/entity/Patient.java
+touch src/main/java/com/alhanoof/healthcare/dto/PatientRequest.java
+touch src/main/java/com/alhanoof/healthcare/dto/PatientResponse.java
+touch src/main/java/com/alhanoof/healthcare/mapper/PatientMapper.java
+touch src/main/java/com/alhanoof/healthcare/validation/PatientValidator.java
+touch src/main/java/com/alhanoof/healthcare/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/healthcare/exception/ValidationException.java
+touch src/main/java/com/alhanoof/healthcare/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/healthcare/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
