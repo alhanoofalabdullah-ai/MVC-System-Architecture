@@ -1,0 +1,15 @@
+package com.alhanoof.ecommerce.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
+
+package com.alhanoof.ecommerce.exception;
+
+public class ValidationException extends RuntimeException {
+    public ValidationException(String message) {
+        super(message);
+    }
+}
