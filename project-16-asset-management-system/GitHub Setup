@@ -1,0 +1,31 @@
+mkdir project-16-asset-management-system
+cd project-16-asset-management-system
+
+mkdir -p src/main/java/com/alhanoof/asset/controller
+mkdir -p src/main/java/com/alhanoof/asset/service
+mkdir -p src/main/java/com/alhanoof/asset/repository
+mkdir -p src/main/java/com/alhanoof/asset/entity
+mkdir -p src/main/java/com/alhanoof/asset/dto
+mkdir -p src/main/java/com/alhanoof/asset/mapper
+mkdir -p src/main/java/com/alhanoof/asset/validation
+mkdir -p src/main/java/com/alhanoof/asset/exception
+mkdir -p src/main/java/com/alhanoof/asset/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/asset/AssetApplication.java
+touch src/main/java/com/alhanoof/asset/controller/AssetController.java
+touch src/main/java/com/alhanoof/asset/service/AssetService.java
+touch src/main/java/com/alhanoof/asset/service/AssetServiceImpl.java
+touch src/main/java/com/alhanoof/asset/repository/AssetRepository.java
+touch src/main/java/com/alhanoof/asset/entity/Asset.java
+touch src/main/java/com/alhanoof/asset/dto/AssetRequest.java
+touch src/main/java/com/alhanoof/asset/dto/AssetResponse.java
+touch src/main/java/com/alhanoof/asset/mapper/AssetMapper.java
+touch src/main/java/com/alhanoof/asset/validation/AssetValidator.java
+touch src/main/java/com/alhanoof/asset/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/asset/exception/ValidationException.java
+touch src/main/java/com/alhanoof/asset/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/asset/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
