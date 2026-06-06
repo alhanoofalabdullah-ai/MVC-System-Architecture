@@ -1,0 +1,31 @@
+mkdir project-15-insurance-management-system
+cd project-15-insurance-management-system
+
+mkdir -p src/main/java/com/alhanoof/insurance/controller
+mkdir -p src/main/java/com/alhanoof/insurance/service
+mkdir -p src/main/java/com/alhanoof/insurance/repository
+mkdir -p src/main/java/com/alhanoof/insurance/entity
+mkdir -p src/main/java/com/alhanoof/insurance/dto
+mkdir -p src/main/java/com/alhanoof/insurance/mapper
+mkdir -p src/main/java/com/alhanoof/insurance/validation
+mkdir -p src/main/java/com/alhanoof/insurance/exception
+mkdir -p src/main/java/com/alhanoof/insurance/util
+mkdir -p src/main/resources
+
+touch README.md pom.xml .gitignore
+touch src/main/java/com/alhanoof/insurance/InsuranceApplication.java
+touch src/main/java/com/alhanoof/insurance/controller/PolicyController.java
+touch src/main/java/com/alhanoof/insurance/service/PolicyService.java
+touch src/main/java/com/alhanoof/insurance/service/PolicyServiceImpl.java
+touch src/main/java/com/alhanoof/insurance/repository/PolicyRepository.java
+touch src/main/java/com/alhanoof/insurance/entity/InsurancePolicy.java
+touch src/main/java/com/alhanoof/insurance/dto/PolicyRequest.java
+touch src/main/java/com/alhanoof/insurance/dto/PolicyResponse.java
+touch src/main/java/com/alhanoof/insurance/mapper/PolicyMapper.java
+touch src/main/java/com/alhanoof/insurance/validation/PolicyValidator.java
+touch src/main/java/com/alhanoof/insurance/exception/ResourceNotFoundException.java
+touch src/main/java/com/alhanoof/insurance/exception/ValidationException.java
+touch src/main/java/com/alhanoof/insurance/exception/GlobalExceptionHandler.java
+touch src/main/java/com/alhanoof/insurance/util/Constants.java
+touch src/main/resources/application.properties
+touch src/main/resources/data.sql
